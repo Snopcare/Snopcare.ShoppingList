@@ -51,7 +51,6 @@ if (inputLength() > 0 && event.keyCode === 13) {
 button.addEventListener("click", addListAfterClick);
 input.addEventListener("keypress", addListAfterKeypress);
 
-
 // Eventlistener with function to line-through the existing line items in the html file.
 litems.forEach(item => {
   item.addEventListener('click', function ExistingLitemsClick(event) {
@@ -63,4 +62,3 @@ litems.forEach(item => {
 for(var i=0; i<litems.length; i++) {
 	addDelBtn(litems[i]);
 }
-
